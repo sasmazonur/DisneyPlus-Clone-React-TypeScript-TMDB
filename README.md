@@ -20,7 +20,7 @@ Welcome to the Disney+ Clone project! This repository contains the code for a fe
 
 Building a Disney+ clone is a fantastic way to dive deep into React development. This project not only replicates the look and feel of Disney+ but also implements advanced features such as user authentication, state management, and dynamic routing.
 
-This README provides an overview of the project and instructions on how to set it up and run it on your local machine. For a detailed step-by-step guide, refer to our comprehensive Medium article:
+This README provides an overview of the project and instructions on how to set it up and run it on your local machine. For a detailed step-by-step guide, refer to my comprehensive Medium article:
 
 [Read the full tutorial on Medium](https://onursasmaz.medium.com/)
 
@@ -115,7 +115,7 @@ To use the application:
 3. **Manage your watchlist**: Add or remove items from your watchlist.
 4. **View detailed information**: Click on any movie or TV show to see detailed information.
 
-For a detailed guide on how each feature is implemented, check out our Medium article:
+For a detailed guide on how each feature is implemented, check out my Medium article:
 
 [Read the full tutorial on Medium](https://onursasmaz.medium.com/)
 
@@ -136,7 +136,7 @@ For more details, see the [LICENSE](LICENSE) file.
 
 ## Further Reading
 
-For a detailed step-by-step guide on building this Disney+ clone, including code snippets and explanations, please visit our Medium article:
+For a detailed step-by-step guide on building this Disney+ clone, including code snippets and explanations, please visit my Medium article:
 
 [Read the full tutorial on Medium](https://onursasmaz.medium.com/)
 
