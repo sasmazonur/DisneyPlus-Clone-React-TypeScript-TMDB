@@ -22,7 +22,7 @@ Building a Disney+ clone is a fantastic way to dive deep into React development.
 
 This README provides an overview of the project and instructions on how to set it up and run it on your local machine. For a detailed step-by-step guide, refer to my comprehensive Medium article:
 
-[Read the full tutorial on Medium](https://onursasmaz.medium.com/)
+[Read the full tutorial on Medium](https://onursasmaz.medium.com/a-disney-clone-with-react-typescript-tmdb-api-step-by-step-guide-onur-8370757d3e8c)
 
 ## Features
 
@@ -117,7 +117,7 @@ To use the application:
 
 For a detailed guide on how each feature is implemented, check out my Medium article:
 
-[Read the full tutorial on Medium](https://onursasmaz.medium.com/)
+[Read the full tutorial on Medium](https://onursasmaz.medium.com/a-disney-clone-with-react-typescript-tmdb-api-step-by-step-guide-onur-8370757d3e8c)
 
 ## Contributing
 
@@ -138,7 +138,7 @@ For more details, see the [LICENSE](LICENSE) file.
 
 For a detailed step-by-step guide on building this Disney+ clone, including code snippets and explanations, please visit my Medium article:
 
-[Read the full tutorial on Medium](https://onursasmaz.medium.com/)
+[Read the full tutorial on Medium](https://onursasmaz.medium.com/a-disney-clone-with-react-typescript-tmdb-api-step-by-step-guide-onur-8370757d3e8c)
 
 ---
 
