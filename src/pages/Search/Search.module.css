@@ -1,0 +1,95 @@
+/**
+ * @fileoverview CSS module for styling the Search page.
+ * 
+ * @license Educational Use License
+ * 
+ * Permission is granted to use, modify, and distribute this project for educational purposes only.
+ * Commercial use is strictly prohibited. For commercial use, please contact the author.
+ * 
+ * @module Search.module.css
+ * 
+ * @description This file contains the styles for the Search page component.
+ */
+
+/* Search section */
+.search {
+  background-color: #040714; /* Dark background color */
+  color: white; /* Light text color */
+}
+
+/* Search bar container */
+.searchBarContainer {
+  display: flex; /* Flex container */
+  justify-content: center; /* Center align content horizontally */
+  margin-bottom: 2rem; 
+  background-color: #4b4e5a; 
+  padding: 1rem; /* Padding */
+  border-radius: 5px; /* Rounded corners */
+}
+
+/* Search input field */
+.searchBar {
+  width: 100%; 
+  padding: 1rem; /* Padding */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 2rem; 
+  background-color: #4b4e5a; 
+  color: #cfcfcf; 
+  outline: none; /* Remove outline */
+}
+
+/* Placeholder text styling for search input */
+.searchBar::placeholder {
+  color: #f9f9f9e5; /* Light placeholder text color */
+  font-size: 2rem; 
+  font-family: 'Inspire', sans-serif; /* Custom font */
+  opacity: 1; /* Full opacity */
+}
+
+/* Title styling */
+.title {
+  font-size: 2rem; 
+  font-weight: bold; /* Bold font weight */
+  margin-bottom: 1rem; 
+  margin-left: 6rem; /* Left margin */
+  text-align: flex-start; /* Align text to the start */
+  font-family: 'Inspire', sans-serif; /* Custom font */
+}
+
+/* Content grid container */
+.contentGrid {
+  display: flex; /* Flex container */
+  flex-wrap: wrap; /* Wrap items to next line */
+  gap: 1rem; /* Spacing between items */
+  justify-content: center; /* Center align items horizontally */
+}
+
+/* Content card styling */
+.contentCard {
+  background-color: #1c1c1c; /* Dark background color */
+  border-radius: 10px; /* Rounded corners */
+  overflow: hidden; /* Hide overflowing content */
+  transition: transform 0.3s; /* Smooth transform transition */
+  cursor: pointer; /* Pointer cursor */
+  width: 320px; /* Fixed width */
+}
+
+/* Hover effect on content card */
+.contentCard:hover {
+  transform: scale(1.05); /* Scale up on hover */
+}
+
+/* Image inside content card */
+.contentImage {
+  width: 100%; 
+  height: 190px; /* Fixed height */
+  object-fit: cover; /* Maintain aspect ratio */
+}
+
+/* Title inside content card */
+.contentTitle {
+  padding: 0.5rem; /* Padding */
+  font-size: 1rem; 
+  text-align: center; /* Center align text */
+}

@@ -1,0 +1,310 @@
+/**
+ * @fileoverview Styles for the TVShowDetail component.
+ * 
+ * @license Educational Use License
+ * 
+ * Permission is granted to use, modify, and distribute this project for educational purposes only.
+ * Commercial use is strictly prohibited. For commercial use, please contact the author.
+ * 
+ * @description This file contains the CSS styles for the TVShowDetail component, which displays detailed information about a selected TV show, including cast, crew, seasons, and episodes.
+ */
+/* Styling for the TV show detail page */
+.tvShowDetail {
+  color: white; 
+  background-color: #040714; /* Dark background color */
+}
+
+/* Banner styling */
+.banner {
+  position: relative; /* Relative positioning */
+  height: 40vh; /* Set height */
+  display: flex; /* Flex container */
+  align-items: center; /* Center align items vertically */
+  justify-content: center; /* Center align items horizontally */
+  overflow: hidden; /* Hide overflowing content */
+}
+
+/* Banner image styling */
+.bannerImage {
+  width: 100%; 
+  height: 100%; 
+  object-fit: cover; /* Maintain aspect ratio and cover */
+  filter: brightness(50%); /* Adjust brightness */
+}
+
+/* Banner content positioning */
+.bannerContent {
+  position: absolute; 
+  bottom: 10%; /* Distance from bottom */
+  left: 5%; /* Distance from left */
+  right: 5%; /* Distance from right */
+  text-align: left; /* Left-align text */
+}
+
+/* Title styling */
+.title {
+  font-size: 3rem; 
+  font-weight: bold; /* Bold font weight */
+  margin-bottom: 0.5rem; 
+}
+
+/* Overview styling */
+.overview {
+  font-size: 1.25rem; 
+  max-width: 60%; /* Maximum width */
+  margin-bottom: 1rem; 
+}
+
+/* Actions (buttons) styling */
+.actions {
+  display: flex; /* Flex container */
+  gap: 1rem; /* Spacing between items */
+  margin-bottom: 1rem; 
+}
+
+/* Button styling */
+.playButton, .trailerButton, .addButton {
+  padding: 0.5rem 1rem; /* Padding */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor */
+  font-size: 1rem; 
+}
+
+/* Play button specific styling */
+.playButton {
+  background-color: #1f80e0; /* Blue background */
+  color: white; /* White text */
+}
+
+/* Trailer button specific styling */
+.trailerButton {
+  background-color: #333; /* Dark background */
+  color: white; /* White text */
+}
+
+/* Add button specific styling */
+.addButton {
+  background-color: #333; /* Dark background */
+  color: white; /* White text */
+}
+
+/* Subscription info styling */
+.subscriptionInfo {
+  font-size: 1rem; 
+  color: #aaa; /* Light gray text */
+}
+
+/* Tab menu styling */
+.tabMenu {
+  display: flex; /* Flex container */
+  justify-content: center; /* Center align items horizontally */
+  margin: 1rem 0; /* Margin */
+  border-bottom: 1px solid #333; /* Bottom border */
+}
+
+/* Tab button styling */
+.tabButton {
+  padding: 1rem 2rem; /* Padding */
+  background: none; /* No background */
+  border: none; /* No border */
+  color: white; /* White text */
+  font-size: 1rem; 
+  cursor: pointer; /* Pointer cursor */
+}
+
+/* Tab button hover effect */
+.tabButton:hover {
+  background-color: #333; /* Dark background on hover */
+}
+
+/* Tab content styling */
+.tabContent {
+  padding: 2rem; /* Padding */
+}
+
+/* Episodes section styling */
+.episodes {
+  margin-bottom: 2rem; 
+}
+
+/* Season select dropdown styling */
+.seasonSelect {
+  margin-bottom: 1rem; 
+}
+
+/* Dropdown styling */
+.dropdown {
+  padding: 0.5rem 1rem; /* Padding */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 1rem; 
+  background-color: #1c1c1c; /* Dark background */
+  color: white; /* White text */
+  cursor: pointer; /* Pointer cursor */
+}
+
+/* Episode list container styling */
+.episodeList {
+  display: flex; /* Flex container */
+  overflow-x: auto; /* Horizontal scroll */
+  gap: 1rem; /* Spacing between items */
+}
+
+/* Episode card styling */
+.episodeCard {
+  background-color: #1c1c1c; /* Dark background */
+  border-radius: 10px; /* Rounded corners */
+  overflow: hidden; /* Hide overflowing content */
+  cursor: pointer; /* Pointer cursor */
+  transition: transform 0.3s; /* Smooth transform transition */
+  min-width: 300px; 
+}
+
+/* Hover effect on episode card */
+.episodeCard:hover {
+  transform: scale(1.05); /* Scale up on hover */
+}
+
+/* Episode image styling */
+.episodeImage {
+  width: 100%; 
+  height: 150px; /* Fixed height */
+  object-fit: cover; /* Maintain aspect ratio and cover */
+}
+
+/* Episode info container styling */
+.episodeInfo {
+  padding: 1rem; /* Padding */
+}
+
+/* Episode title styling */
+.episodeTitle {
+  font-size: 1rem; 
+  font-weight: bold; /* Bold font weight */
+}
+
+/* Episode overview styling */
+.episodeOverview {
+  font-size: 0.875rem; 
+  color: #aaa; /* Light gray text */
+  margin: 0.5rem 0; /* Margin */
+}
+
+/* Episode runtime styling */
+.episodeRuntime {
+  font-size: 0.875rem; 
+  color: #aaa; /* Light gray text */
+}
+
+/* Episode details section styling */
+.episodeDetails {
+  position: relative; /* Relative positioning */
+  padding: 1rem; /* Padding */
+  background-color: #1c1c1c; /* Dark background */
+  border-radius: 10px; /* Rounded corners */
+  margin-bottom: 2rem; 
+  overflow: hidden; /* Hide overflowing content */
+}
+
+/* Episode detail image styling */
+.episodeDetailImage {
+  width: 100%; 
+  height: 300px; /* Fixed height */
+  object-fit: cover; /* Maintain aspect ratio and cover */
+  border-radius: 5px; /* Rounded corners */
+}
+
+/* Episode details content container styling */
+.episodeDetailsContent {
+  position: absolute; 
+  top: 0; /* Align to the top */
+  left: 0; /* Align to the left */
+  right: 0; /* Align to the right */
+  bottom: 0; /* Align to the bottom */
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)); /* Gradient background */
+  padding: 3rem; /* Padding */
+  display: flex; /* Flex container */
+  flex-direction: column; /* Column direction */
+  justify-content: flex-end; /* Align items to the end */
+  border-radius: 10px; /* Rounded corners */
+}
+
+/* Episode details content title styling */
+.episodeDetailsContent h2 {
+  margin-bottom: 1rem; 
+}
+
+/* Episode details content paragraph styling */
+.episodeDetailsContent p {
+  font-size: 1.1rem; 
+  margin-bottom: 0.5rem; 
+}
+
+/* Strong emphasis styling */
+.episodeDetailsContent p strong {
+  font-weight: bold; /* Bold font weight */
+}
+
+/* Suggested section styling */
+.suggested {
+  margin-bottom: 2rem; 
+}
+
+/* Suggested list container styling */
+.suggestedList {
+  display: flex; /* Flex container */
+  overflow-x: auto; /* Horizontal scroll */
+  gap: 1rem; /* Spacing between items */
+}
+
+/* Suggested card styling */
+.suggestedCard {
+  background-color: #1c1c1c; /* Dark background */
+  border-radius: 10px; /* Rounded corners */
+  overflow: hidden; /* Hide overflowing content */
+  cursor: pointer; /* Pointer cursor */
+  transition: transform 0.3s; /* Smooth transform transition */
+  min-width: 200px; 
+}
+
+/* Hover effect on suggested card */
+.suggestedCard:hover {
+  transform: scale(1.05); /* Scale up on hover */
+}
+
+/* Suggested image styling */
+.suggestedImage {
+  width: 100%; 
+  height: 300px; /* Fixed height */
+  object-fit: cover; /* Maintain aspect ratio and cover */
+}
+
+/* Suggested title styling */
+.suggestedTitle {
+  padding: 1rem; /* Padding */
+  font-size: 1rem; 
+  font-weight: bold; /* Bold font weight */
+  text-align: center; /* Center align text */
+}
+
+/* Details section styling */
+.details {
+  padding: 2rem; /* Padding */
+}
+
+/* Details section title styling */
+.details h2 {
+  margin-bottom: 1rem; 
+}
+
+/* Details section paragraph styling */
+.details p {
+  font-size: 1.1rem; 
+  margin-bottom: 0.5rem; 
+}
+
+/* Strong emphasis within details section styling */
+.details p strong {
+  font-weight: bold; /* Bold font weight */
+}

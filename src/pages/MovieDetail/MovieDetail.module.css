@@ -1,0 +1,171 @@
+/* *
+ * @fileoverview Styles for the MovieDetail component.
+ * 
+ * @license Educational Use License
+ * 
+ * Permission is granted to use, modify, and distribute this project for educational purposes only.
+ * Commercial use is strictly prohibited. For commercial use, please contact the author.
+ * 
+ * @description This file contains the CSS styles for the MovieDetail component, which displays detailed information about a selected movie, including cast, crew, and related content.
+ */
+/* Movie detail page container */
+.movieDetail {
+  color: white; 
+  background-color: #040714; /* Dark background color */
+}
+
+/* Banner section */
+.banner {
+  position: relative; /* Relative positioning */
+  height: 40vh; /* Set height relative to viewport height */
+  display: flex; /* Flex container */
+  align-items: center; /* Center items vertically */
+  justify-content: center; /* Center items horizontally */
+  overflow: hidden; /* Hide overflowing content */
+}
+
+/* Banner image styling */
+.bannerImage {
+  width: 100%; 
+  height: 100%; 
+  object-fit: cover; /* Maintain aspect ratio */
+  filter: brightness(50%); /* Adjust brightness */
+}
+
+/* Banner content overlay */
+.bannerContent {
+  position: absolute; 
+  bottom: 10%; /* Distance from bottom */
+  left: 5%; /* Distance from left */
+  right: 5%; /* Distance from right */
+  text-align: left; /* Align text to the left */
+}
+
+/* Title in the banner */
+.title {
+  font-size: 3rem; /* Large font size */
+  font-weight: bold; /* Bold font weight */
+  margin-bottom: 0.5rem; 
+}
+
+/* Overview text in the banner */
+.overview {
+  font-size: 1.25rem; 
+  max-width: 60%; /* Maximum width */
+  margin-bottom: 1rem; 
+}
+
+/* Action buttons container */
+.actions {
+  display: flex; /* Flex container */
+  gap: 1rem; /* Spacing between items */
+  margin-bottom: 1rem; 
+}
+
+/* Button styles */
+.playButton, .trailerButton, .addButton {
+  padding: 0.5rem 1rem; /* Padding */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor */
+  font-size: 1rem; 
+}
+
+.playButton {
+  background-color: #1f80e0; /* Blue background */
+  color: white; /* White text */
+}
+
+.trailerButton {
+  background-color: #333; /* Dark background */
+  color: white; /* White text */
+}
+
+.addButton {
+  background-color: #333; /* Dark background */
+  color: white; /* White text */
+}
+
+/* Subscription information */
+.subscriptionInfo {
+  font-size: 1rem; 
+  color: #aaa; /* Light gray text color */
+}
+
+/* Movie details container */
+.movieDetails {
+  position: relative; /* Relative positioning */
+  padding: 2rem; /* Padding */
+  background-color: #1c1c1c; /* Dark background */
+  border-radius: 10px; /* Rounded corners */
+  margin-bottom: 2rem; 
+  overflow: hidden; /* Hide overflowing content */
+}
+
+/* Content inside movie details */
+.movieDetailsContent {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)); /* Gradient background */
+  padding: 1rem; /* Padding */
+  display: flex; /* Flex container */
+  flex-direction: column; /* Column layout */
+  justify-content: flex-end; /* Align content to bottom */
+  border-radius: 10px; /* Rounded corners */
+}
+
+/* Heading inside movie details content */
+.movieDetailsContent h2 {
+  margin-bottom: 1rem; 
+}
+
+/* Paragraph inside movie details content */
+.movieDetailsContent p {
+  font-size: 1.1rem; 
+  margin-bottom: 0.5rem; 
+}
+
+/* Strong text inside paragraphs */
+.movieDetailsContent p strong {
+  font-weight: bold; /* Bold font weight */
+}
+
+/* Suggested movies section */
+.suggested {
+  margin-bottom: 2rem; 
+}
+
+/* List of suggested movies */
+.suggestedList {
+  display: flex; /* Flex container */
+  overflow-x: auto; /* Allow horizontal scrolling */
+  gap: 1rem; /* Spacing between suggested cards */
+}
+
+/* Suggested movie card */
+.suggestedCard {
+  background-color: #1c1c1c; /* Dark background */
+  border-radius: 10px; /* Rounded corners */
+  overflow: hidden; /* Hide overflowing content */
+  cursor: pointer; /* Pointer cursor */
+  transition: transform 0.3s; /* Smooth transform transition */
+  min-width: 200px; 
+}
+
+/* Hover effect on suggested movie card */
+.suggestedCard:hover {
+  transform: scale(1.05); /* Scale up on hover */
+}
+
+/* Image inside suggested movie card */
+.suggestedImage {
+  width: 100%; 
+  height: 300px; /* Fixed height */
+  object-fit: cover; /* Maintain aspect ratio */
+}
+
+/* Title text inside suggested movie card */
+.suggestedTitle {
+  padding: 1rem; /* Padding */
+  font-size: 1rem; 
+  font-weight: bold; /* Bold font weight */
+  text-align: center; /* Center align text */
+}

@@ -1,0 +1,37 @@
+/**
+ * @fileoverview CSS module for styling the ContentSlider component.
+ * 
+ * @license Educational Use License
+ * 
+ * Permission is granted to use, modify, and distribute this project for educational purposes only.
+ * Commercial use is strictly prohibited. For commercial use, please contact the author.
+ * 
+ * @module ContentSlider.module.css
+ * 
+ * @description This file contains the styles for the ContentSlider component.
+ */
+
+/* Container for the content slider */
+.contentSlider {
+  margin-bottom: 2rem; /* Bottom margin for separation */
+}
+
+/* Title styling for the content slider */
+.title {
+  font-size: 1.5rem; /* Larger font size for titles */
+  margin-bottom: 1rem; /* Bottom margin for spacing */
+}
+
+/* Slider container */
+.slider {
+  display: flex; /* Flex container */
+  gap: 1rem; /* Spacing between slider items */
+  overflow-x: auto; /* Allow horizontal scrolling */
+  padding-bottom: 1rem; /* Padding at the bottom */
+  scrollbar-width: none; /* Hide scrollbar for Firefox */
+}
+
+/* Hide scrollbar for WebKit browsers (Chrome, Safari, Opera) */
+.slider::-webkit-scrollbar {
+  display: none;
+}

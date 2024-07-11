@@ -1,0 +1,53 @@
+/**
+ * @fileoverview Defines styles for the Card component.
+ * 
+ * @copyright 2024 Onur Sasmaz
+ * 
+ * @license Educational Use License
+ * 
+ * Permission is granted to use, modify, and distribute this project for educational purposes only.
+ * Commercial use is strictly prohibited. For commercial use, please contact the author.
+ * 
+ * @module CardStyles
+ * 
+ * @description This file contains CSS styles for the Card component, including layout, hover effects, and responsive design.
+ */
+ 
+/* Card container */
+.card {
+  position: relative; /* Relative positioning */
+  border-radius: 10px; /* Rounded corners */
+  overflow: hidden; /* Hide overflowing content */
+  min-width: 200px; 
+  min-height: 300px; 
+  background-color: #000; 
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Shadow effect */
+  transition: transform 0.3s; /* Smooth transform transition */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+/* Hover effect on card */
+.card:hover {
+  transform: scale(1.05); /* Scale up on hover */
+}
+
+/* Image inside card */
+.image {
+  width: 100%; 
+  height: 100%; 
+  object-fit: cover; /* Maintain aspect ratio */
+}
+
+/* Title text inside card */
+.title {
+  position: absolute; 
+  bottom: 0; /* Align to bottom */
+  left: 0; /* Align to left */
+  right: 0; /* Align to right */
+  padding: 0.5rem; /* Padding inside */
+  background: rgba(0, 0, 0, 0.7); /* Background color with transparency */
+  color: #fff; 
+  text-align: center; 
+  font-size: 1rem; 
+  margin: 0; /* Remove default margin */
+}

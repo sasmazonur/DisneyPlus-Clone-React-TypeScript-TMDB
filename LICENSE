@@ -1,21 +1,28 @@
-MIT License
+Copyright (c) 2024 Onur Sasmaz
 
-Copyright (c) 2024 Onur
+### Educational Use License
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+This project is licensed under the following terms and conditions:
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+#### Permitted Educational Use
+The reader is granted permission to use, modify, and distribute this project for educational purposes only. This encompasses activities such as academic research, classroom instruction, and student projects.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+#### Restriction on Commercial Use
+Any commercial use of this project or any of its components is strictly prohibited. Commercial use includes, but is not limited to, integrating this project or any part thereof into commercial products, services, or applications.
+
+#### Permission for Commercial Use
+Should the reader wish to utilize any portion of this project for commercial purposes, prior written consent from the author is mandatory. Requests for such permission should be directed to Onur Sasmaz.
+
+#### Attribution Requirements
+Proper credit must be attributed to the author when using this project. This includes providing a link to this license and indicating any changes that were made. Attribution should be made in a reasonable manner, without suggesting that the author endorses the reader or their use of the project.
+
+#### Disclaimer of Warranties
+This project is provided "as is," without any express or implied warranties, including but not limited to warranties of merchantability, fitness for a particular purpose, and non-infringement. The author shall not be held liable for any claims, damages, or other liabilities, whether in an action of contract, tort, or otherwise, arising from, out of, or in connection with the project or the use or other dealings in the project.
+
+For further inquiries or permission requests, please contact Onur Sasmaz.
+
+---
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+Copyright (c) 2024 Onur Sasmaz

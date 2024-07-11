@@ -1,0 +1,62 @@
+/* *
+ * @fileoverview Styles for the Originals component.
+ * 
+ * @license Educational Use License
+ * 
+ * Permission is granted to use, modify, and distribute this project for educational purposes only.
+ * Commercial use is strictly prohibited. For commercial use, please contact the author.
+ * 
+ * @description This file contains the CSS styles for the Originals component, which displays a list of original content available on the platform, including exclusive movies and TV shows.
+ */
+/* Originals component container */
+.originals {
+  padding: 1rem; /* Padding around content */
+  background-color: #040714; /* Dark background color */
+  color: white; 
+}
+
+/* Title styling */
+.title {
+  font-size: 3rem; /* Large font size */
+  font-weight: bold; /* Bold font weight */
+  margin-bottom: 1rem; 
+  text-align: center; /* Center align text */
+}
+
+/* Movie list container */
+.movieList {
+  display: flex; /* Flex container */
+  flex-wrap: wrap; /* Wrap items */
+  gap: 1.5rem; /* Spacing between items */
+  justify-content: center; /* Center items horizontally */
+}
+
+/* Movie card styling */
+.movieCard {
+  background-color: #1c1c1c; /* Dark background color */
+  border-radius: 10px; /* Rounded corners */
+  overflow: hidden; /* Hide overflowing content */
+  transition: transform 0.3s; /* Smooth transform transition */
+  cursor: pointer; /* Pointer cursor */
+  width: 350px; /* Fixed width */
+}
+
+/* Hover effect on movie card */
+.movieCard:hover {
+  transform: scale(1.05); /* Scale up on hover */
+}
+
+/* Movie image inside card */
+.movieImage {
+  width: 100%; 
+  height: 150px; /* Fixed height */
+  object-fit: cover; /* Maintain aspect ratio */
+}
+
+/* Movie title inside card */
+.movieTitle {
+  padding: 0.5rem; /* Padding */
+  font-size: 1rem; 
+  font-weight: bold; /* Bold font weight */
+  text-align: center; /* Center align text */
+}

@@ -1,0 +1,18 @@
+/**
+ * @fileoverview Defines CSS variables for consistent styling across the application.
+ * 
+ * @copyright 2024 Onur Sasmaz
+ * 
+ * @license Educational Use License
+ * 
+ * Permission is granted to use, modify, and distribute this project for educational purposes only.
+ * Commercial use is strictly prohibited. For commercial use, please contact the author.
+ * 
+ * @module Variables
+ * 
+ * @description This file contains CSS variables for primary and secondary colors used throughout the application.
+ */
+:root {
+--primary-color: #0052cc;
+--secondary-color: #172b4d;
+}

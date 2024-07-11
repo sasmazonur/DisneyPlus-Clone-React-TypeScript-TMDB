@@ -1,0 +1,121 @@
+/* *
+ * @fileoverview Styles for the TVShows component.
+ * 
+ * @license Educational Use License
+ * 
+ * Permission is granted to use, modify, and distribute this project for educational purposes only.
+ * Commercial use is strictly prohibited. For commercial use, please contact the author.
+ * 
+ * @description This file contains the CSS styles for the TVShows component, which displays a list of TV shows available on the platform, categorized by genre and popularity.
+ */
+/* Styling for the TV show list page */
+.tvShows {
+  padding: 2rem; /* Padding */
+  background-color: #040714; /* Dark background */
+  color: white; 
+}
+
+/* Title styling */
+.title {
+  font-size: 3rem; 
+  font-weight: bold; /* Bold font weight */
+  margin-bottom: 1rem; 
+  text-align: center; /* Center align text */
+  font-family: 'Inspire', sans-serif; /* Apply the "Inspire" font */
+}
+
+/* Category scroll section styling */
+.categoryScroll {
+  display: flex; /* Flex container */
+  align-items: center; /* Center align items vertically */
+  justify-content: center; /* Center align items horizontally */
+  margin-bottom: 2rem; 
+}
+
+/* Scroll button styling */
+.scrollButton {
+  padding: 1rem; /* Padding */
+  background: none; /* No background */
+  border: none; /* No border */
+  color: white; /* White text */
+  font-size: 2rem; 
+  cursor: pointer; /* Pointer cursor */
+}
+
+/* Category container styling */
+.categoryContainer {
+  display: flex; /* Flex container */
+  overflow-x: auto; /* Horizontal scroll */
+  scroll-behavior: smooth; /* Smooth scrolling */
+  gap: 1rem; /* Spacing between items */
+  padding: 1rem 0; /* Padding */
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+}
+
+/* Hide scrollbar for WebKit browsers */
+.categoryContainer::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+
+/* Category button styling */
+.categoryButton {
+  padding: 0.8rem 1.4rem; /* Padding */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  background-color: #364154; /* Dark background */
+  color: white; /* White text */
+  cursor: pointer; /* Pointer cursor */
+  font-size: 1rem; 
+  flex-shrink: 0; /* Prevent shrinking */
+  font-family: 'Inspire', sans-serif; /* Apply the "Inspire" font */
+}
+
+/* Hover effect on category button */
+.categoryButton:hover {
+  background-color: #fffffff3; /* Lighten background on hover */
+  color: black; /* Black text on hover */
+}
+
+/* Active category button styling */
+.categoryButton.active {
+  background-color: #1f80e0; /* Blue background for active state */
+}
+
+/* TV show list container styling */
+.tvShowList {
+  display: flex; /* Flex container */
+  flex-wrap: wrap; /* Wrap items */
+  gap: 1rem; /* Spacing between items */
+  justify-content: center; /* Center align items horizontally */
+}
+
+/* TV show card styling */
+.tvShowCard {
+  background-color: #1c1c1c; /* Dark background */
+  border-radius: 10px; /* Rounded corners */
+  overflow: hidden; /* Hide overflowing content */
+  transition: transform 0.3s; /* Smooth transform transition */
+  cursor: pointer; /* Pointer cursor */
+  width: 200px; /* Fixed width */
+}
+
+/* Hover effect on TV show card */
+.tvShowCard:hover {
+  transform: scale(1.05); /* Scale up on hover */
+}
+
+/* TV show image styling */
+.tvShowImage {
+  width: 100%; 
+  height: 300px; /* Fixed height */
+  object-fit: cover; /* Maintain aspect ratio and cover */
+}
+
+/* TV show title styling */
+.tvShowTitle {
+  padding: 0.5rem; /* Padding */
+  font-size: 1rem; 
+  font-weight: bold; /* Bold font weight */
+  text-align: center; /* Center align text */
+}

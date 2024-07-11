@@ -1,0 +1,70 @@
+/**
+ * @fileoverview Defines styles for the Footer component.
+ * 
+ * @copyright 2024 Onur Sasmaz
+ * 
+ * @license Educational Use License
+ * 
+ * Permission is granted to use, modify, and distribute this project for educational purposes only.
+ * Commercial use is strictly prohibited. For commercial use, please contact the author.
+ * 
+ * @module FooterStyles
+ * 
+ * @description This file contains CSS styles for the Footer component, including layout, links, and responsive design.
+ */
+
+/* Footer container */
+.footer {
+  background-color: #000; 
+  color: white; 
+  text-align: center; /* Center align text */
+  padding: 2rem 1rem; /* Padding top and bottom, smaller sides */
+}
+
+/* Container for links in footer */
+.links {
+  display: flex; /* Flex container */
+  flex-wrap: wrap; /* Allow wrapping */
+  justify-content: center; /* Center items horizontally */
+  gap: 1rem; /* Spacing between links */
+  margin-bottom: 1.5rem; 
+}
+
+/* Styling for links in footer */
+.links a {
+  color: white; /* Link text color */
+  text-decoration: none; /* Remove underline */
+  font-size: 0.875rem; 
+}
+
+/* Hover effect for links in footer */
+.links a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+/* Container for footer logo */
+.logoContainer {
+  margin-bottom: 1rem; 
+}
+
+/* Logo image in footer */
+.logo {
+  height: 60px; /* Logo height */
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .logo {
+    height: 30px; /* Smaller logo height on mobile */
+  }
+
+  .links a {
+    font-size: 0.75rem; /* Smaller font size for links on mobile */
+  }
+}
+
+/* Copyright text styling */
+.copyright {
+  font-size: 0.75rem; 
+  color: #aaa; /* Light gray color */
+}

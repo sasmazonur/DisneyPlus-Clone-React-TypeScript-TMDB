@@ -1,0 +1,22 @@
+/**
+ * @fileoverview Defines styles for the ErrorBoundary component.
+ * 
+ * @copyright 2024 Onur Sasmaz
+ * 
+ * @license Educational Use License
+ * 
+ * Permission is granted to use, modify, and distribute this project for educational purposes only.
+ * Commercial use is strictly prohibited. For commercial use, please contact the author.
+ * 
+ * @module ErrorBoundaryStyles
+ * 
+ * @description This file contains CSS styles for the ErrorBoundary component, including error message styling.
+ */
+.error {
+    color: white;
+    background-color: #f44336;
+    padding: 1rem;
+    border-radius: 5px;
+    text-align: center;
+  }
+  

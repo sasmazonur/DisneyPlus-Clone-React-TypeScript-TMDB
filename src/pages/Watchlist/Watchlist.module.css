@@ -1,0 +1,42 @@
+/**
+ * @fileoverview Styles for the Watchlist component.
+ * 
+ * @license Educational Use License
+ * 
+ * Permission is granted to use, modify, and distribute this project for educational purposes only.
+ * Commercial use is strictly prohibited. For commercial use, please contact the author.
+ * 
+ * @description This file contains the CSS styles for the Watchlist component, which displays the user's watchlist of saved movies and TV shows, allowing users to manage their personal watchlist.
+ */
+/* Styling for the watchlist page */
+.watchlist {
+  display: flex; /* Flex container */
+  flex-direction: column; /* Column direction */
+  align-items: center; /* Center align items horizontally */
+  justify-content: center; /* Center align items vertically */
+  height: 80vh; /* 80% of viewport height */
+  text-align: center; /* Center align text */
+  background-color: #040714; /* Dark background */
+  color: white; /* White text */
+  padding: 2rem; /* Padding */
+}
+
+/* Title styling */
+.title {
+  font-size: 3rem; 
+  font-weight: bold; /* Bold font weight */
+  margin-bottom: 1rem; 
+}
+
+/* Message styling */
+.message {
+  font-size: 1.5rem; 
+  font-weight: bold; /* Bold font weight */
+  margin-bottom: 1rem; 
+}
+
+/* Description styling */
+.description {
+  font-size: 1rem; 
+  color: #aaa; /* Light gray color */
+}

@@ -1,0 +1,117 @@
+/**
+ * @fileoverview Defines styles for the NavBar component.
+ * 
+ * @copyright 2024 Onur Sasmaz
+ * 
+ * @license Educational Use License
+ * 
+ * Permission is granted to use, modify, and distribute this project for educational purposes only.
+ * Commercial use is strictly prohibited. For commercial use, please contact the author.
+ * 
+ * @module NavBarStyles
+ * 
+ * @description This file contains CSS styles for the NavBar component, including layout, links, and responsive design.
+ */
+/* Header container */
+.header {
+  display: flex; /* Flex container */
+  justify-content: space-between; /* Space evenly between items */
+  align-items: center; /* Center items vertically */
+  padding: 1rem 2rem; /* Padding inside header */
+  background-color: #000; 
+  color: white; 
+}
+
+/* Logo container */
+.logoContainer {
+  flex-shrink: 0; /* Prevent shrinking */
+  margin-right: 2rem; /* Margin on the right */
+}
+
+/* Logo image */
+.logo {
+  height: 48px; /* Fixed height */
+}
+
+/* Navigation container */
+.nav {
+  display: flex; /* Flex container */
+  gap: 1.5rem; /* Spacing between items */
+  flex-grow: 1; /* Grow to fill available space */
+  justify-content: flex-start; /* Align items to the start */
+}
+
+/* Navigation item */
+.navItem {
+  text-decoration: none; /* Remove underline */
+  color: white; 
+  font-size: 1rem; 
+  display: flex; /* Flex container */
+  align-items: center; /* Center items vertically */
+  position: relative; /* Position relative for pseudo element */
+}
+
+/* Hover effect on navigation item */
+.navItem:hover::after {
+  content: ''; /* Empty content */
+  position: absolute; 
+  bottom: -5px; /* Position at bottom */
+  left: 0; /* Align to left */
+  width: 100%; 
+  height: 2px; /* Height of underline */
+  background-color: white; /* Color of underline */
+}
+
+/* Icon in navigation item */
+.navIcon {
+  margin-right: 0.5rem; /* Margin between icon and text */
+}
+
+/* Text in navigation item */
+.navText {
+  display: inline; /* Display inline */
+}
+
+/* Profile container */
+.profileContainer {
+  display: flex; /* Flex container */
+  align-items: center; /* Center items vertically */
+  position: relative; /* Position relative for dropdown */
+  cursor: pointer; /* Pointer cursor */
+}
+
+/* Dropdown container for profile */
+.dropdownContainer {
+  position: absolute; 
+  top: 60px; /* Position below header */
+  right: 0; /* Align to right */
+  z-index: 1000; /* Higher stacking order */
+}
+
+/* Profile image */
+.profileImage {
+  width: 40px; /* Fixed width */
+  height: 40px; /* Fixed height */
+  border-radius: 50%; /* Circle shape */
+}
+
+/* Media query for responsive design */
+@media (max-width: 1400px) {
+  .navText {
+    display: none; /* Hide text in navigation items */
+  }
+
+  .navIcon {
+    margin-right: 0; /* Remove margin for icons */
+    font-size: 1.5rem; /* Increase icon size */
+  }
+
+  .nav {
+    gap: 2rem; /* Increase spacing between navigation items */
+  }
+
+  .profileImage {
+    width: 50px; 
+    height: 50px; 
+  }
+}

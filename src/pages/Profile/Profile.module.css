@@ -1,0 +1,69 @@
+/**
+ * @fileoverview CSS module for styling the Profile page.
+ * 
+ * @license Educational Use License
+ * 
+ * Permission is granted to use, modify, and distribute this project for educational purposes only.
+ * Commercial use is strictly prohibited. For commercial use, please contact the author.
+ * 
+ * @module Profile.module.css
+ * 
+ * @description This file contains the styles for the Profile page component.
+ */
+
+/* Profile page container */
+.profilePage {
+  padding: 7rem; /* Padding around content */
+  background-color: #040714; /* Dark background color */
+  color: #f9f9f9; /* Light text color */
+  display: flex; /* Flex container */
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center align items horizontally */
+}
+
+/* Profile header section */
+.profileHeader {
+  display: flex; /* Flex container */
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center align items horizontally */
+  margin-bottom: 2rem; 
+}
+
+/* Avatar image */
+.avatar {
+  height: 100px; /* Fixed height */
+  border-radius: 50%; /* Circular shape */
+  margin-bottom: 1rem; 
+}
+
+/* Username styling */
+.username {
+  font-size: 2rem; /* Large font size */
+  font-weight: 700; /* Bold font weight */
+}
+
+/* Profile options section */
+.profileOptions {
+  display: flex; /* Flex container */
+  flex-direction: column; /* Stack items vertically */
+  gap: 1rem; /* Spacing between items */
+  width: 100%; 
+  max-width: 400px; /* Maximum width */
+}
+
+/* Option button styling */
+.optionButton {
+  background-color: #1c1c1c; /* Dark background color */
+  color: #f9f9f9; /* Light text color */
+  border: none; /* No border */
+  padding: 1rem; /* Padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 1rem; 
+  cursor: pointer; /* Pointer cursor */
+  transition: background-color 0.3s; /* Smooth background color transition */
+}
+
+/* Hover effect on option button */
+.optionButton:hover {
+  background-color: #333; /* Darken background color on hover */
+}

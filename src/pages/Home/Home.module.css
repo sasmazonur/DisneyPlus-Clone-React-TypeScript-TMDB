@@ -1,0 +1,10 @@
+/* Home page container */
+.home {
+  background-color: #040714; /* Dark background color */
+  color: #f9f9f9; /* Light text color */
+}
+
+/* Content container */
+.content {
+  padding: 2rem; /* Padding around content */
+}
