@@ -49,7 +49,7 @@ Ensure you have the following installed on your development machine:
 1. **Clone the repository:**
 
 ```bash
-git clone https://github.com/yourusername/disney-plus-clone.git
+git clone https://github.com/sasmazonur/DisneyPlus-Clone-React-TypeScript-TMDB
 cd disney-plus-clone
 ```
 
@@ -80,7 +80,7 @@ The application should now be running on `http://localhost:5173`.
 Here's a brief overview of the project's structure:
 
 ```
-disney-plus-clone/
+onur-plus/
 ├── public/
 │   ├── index.html
 │   └── ...
