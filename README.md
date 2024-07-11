@@ -1,5 +1,6 @@
 # Disney+ Clone with React
-![](https://github.com/sasmazonur/DisneyPlus-Clone-React-TypeScript-TMDB/blob/main/public/onurplus.gif)
+![Onur+ Overview](https://github.com/sasmazonur/DisneyPlus-Clone-React-TypeScript-TMDB/blob/main/public/onurplus.gif)
+
 Welcome to the Disney+ Clone project! This repository contains the code for a feature-rich streaming platform built with React, designed to mimic the popular Disney+ service. Follow along as we explore advanced React concepts, state management, API integration, and responsive design.
 
 ## Table of Contents
